@@ -1,0 +1,149 @@
+
+body{
+    background-color:#FF6DE4 ;
+}
+
+#heading{
+
+    color: #2DB09E;
+    font-family:"Dancing Script", cursive;
+    font-size:96px;
+    line-height: 134.4px;
+    letter-spacing: 9.6px;
+    text-transform: uppercase;
+    font-weight: 300;
+    
+}
+
+.description{
+
+    color: #2D3142;
+    font-family: "Dancing Script", cursive;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 150;
+    line-height: 36px;
+
+}
+
+
+
+.description > ul{
+
+    list-style:"⇱ ";
+    margin: 10px;
+    padding: 10px;
+
+}
+
+nav{
+    background-color: #8749FA;
+    font-family: "Dancing Script", cursive;
+}
+
+nav > ul {
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 150%; /* 54px */
+    letter-spacing: 9px;
+    font-family: "Dancing Script", cursive;
+    list-style-type: none;
+ 
+}
+
+nav > ul > li{
+   
+}
+
+.navStyle > ul > li > a, a:visited{
+    color:#2D3142;
+    text-decoration: none;
+   
+}
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: "DM Serif Display", serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 84px */
+    letter-spacing: 6px;
+}
+
+h2{
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: "DM Serif Display", serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 67.2px */
+    letter-spacing: 4.8px;
+
+}
+
+h3{
+    color: white;
+    text-transform: lowercase;
+    text-align: left;
+    font-family: "DM Serif Display", serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 67.2px */
+    letter-spacing: 4.8px;
+
+}
+
+strong{
+    
+    font-family: "DM Serif Display", serif; 
+    color: #2DB09E;
+    background-color:white;
+    font-weight: 800;
+
+}
+
+i{
+    font-family: "DM Serif Display", serif; 
+    color: #2DB09E;
+    background-color:white;
+    font-weight: 300;
+}
+
+
+
+.description > ul > li > a:visited, a:active{
+    color: white;
+    text-decoration: none;  
+    
+}
+
+.description > ul > li > a{
+    font-family: "DM Sans", sans-serif;
+    color: #2DB09E;
+    background-color: black;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    text-decoration: none;
+    -webkit-text-stroke: 0px ;
+    transition: stroke 2s;
+}
+
+a:hover{
+
+    color: transparent;
+    stroke:2px white;
+}
+
+
+
+
+
